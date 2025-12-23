@@ -1,0 +1,116 @@
+.companiesSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    /* border: 1px solid #ff0000; */
+    background-image: url('/bgImage2.png');
+    background-size: cover;
+    background-position-y:-250px;
+    background-position-x:-250px;
+    background-repeat: no-repeat;
+}
+
+.content{
+    text-align: center;
+    margin: 0 auto !important;
+    max-width: 1300px;
+    /* margin-bottom: 2rem; */
+}
+
+.content > div:first-child  p{
+    font-size: 16px;
+    font-weight: 550;
+    color: #475569;
+    margin: 5rem 0 1rem 0;
+}
+
+.companiesLogo{
+    margin:2rem 0 5rem 0;
+}
+
+.companiesLogo img{
+    height: 40px;
+    width: 100px;
+    object-fit: contain;
+    margin-right: 80px;
+}
+
+.companiesLogo img:last-child{
+    margin-right: 0 !important;
+}
+
+.helpInfo h3{
+    font-size: 36px;
+    font-weight: 550;
+    color: #3B3B3B;
+    margin-bottom: 1rem ;
+}
+
+.helpInfo p{
+    font-size: 16px;
+    color: #8A8E9B;
+}
+
+.helpGrid{
+    gap: 20px;
+    display: grid;
+    margin: 5rem 0;
+    max-width: 1000px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.bgBox{
+    padding: .1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bgBox:hover{
+    background:linear-gradient(#4365FF,#FB20FF) ;
+}
+
+.bgBox > div {
+    padding: 2rem 2rem;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    text-align: left;
+    background-color: #fff;
+    /* box-shadow: 0 0 10px #efefef; */
+}
+
+.circle{
+    height: 70px;
+    min-width: 70px;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 8px solid #F5F7FE;
+}
+
+.circle img{
+    height: 32px;
+    width: 32px;
+    object-fit: contain;
+}
+
+.Helpcontent{
+    text-align: left;
+}
+
+.Helpcontent span{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: inline-block;
+    text-align: left;
+    color: #3B3B3B;
+}
+
+.Helpcontent p{
+    font-size: 14px;
+    color: #828282;
+}
