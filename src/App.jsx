@@ -3,6 +3,7 @@ import Companies from './Component/Companies/Companies';
 import Header from './Component/Header/Header';
 import HeroSection from './Component/HeroSection/HeroSection';
 import LatestWork from './Component/Latestwork/LatestWork';
+import Team from './Component/Team/Team';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <HeroSection />
         <Companies />
         <LatestWork/>
+        <Team/>
       </main>
     </>
   )
