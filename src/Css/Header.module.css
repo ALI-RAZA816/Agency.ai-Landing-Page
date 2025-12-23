@@ -1,0 +1,76 @@
+.header{
+    padding: 1.5rem 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+
+.link ul li{
+    margin-right: 36px;
+}
+
+.link ul li a{
+    text-decoration: none;
+    color: #475569;
+    font-size: 16px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+}
+
+.mode{
+    cursor: pointer;
+    margin-right: 1.5rem;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #C4C4C4;
+}
+
+.darkMode{
+    font-size: 20px;
+    color: #3A3A3A;
+}
+
+.contact button{
+    height: 45px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    align-items: center;
+    transition: transform .20s ease;
+    background-color: #5044E5;
+    cursor: pointer;
+}
+
+.contact button:hover{
+    transform: scale(1.1);
+}
+
+.contact button span{
+    color: #fff;
+    display: inline-block;
+    margin-right: .5rem;
+    font-size: 16px;
+}
+
+.arrow{
+    color: #fff;
+    font-size: 16px;
+}
