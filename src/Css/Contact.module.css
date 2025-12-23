@@ -1,0 +1,107 @@
+.contactContent{
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 10rem !important;
+    text-align: center;
+}
+
+.contactContent h2{
+    color: #3B3B3B;
+    font-weight: 550;
+    font-size: 36px;
+}
+
+.contactContent p{
+    font-size: 16px;
+    color: #8A8E9B;
+    margin: 1rem 0;
+}
+
+.form{
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.form form{
+    width: 100%;
+}
+
+.firstField{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 2rem;
+}
+
+.name,
+.message,
+.email{
+    width: 100%;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.message label,
+.name label,
+.email label{
+    color: #1E293B;
+    font-size: 14px;
+    font-weight:bold;
+    margin-bottom: .5rem;
+}
+
+.nameinput,
+.emailinput{
+    height: 50px;
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    overflow: hidden;
+    padding: 0 .5rem;
+    align-items: center;
+    border: 1px solid #CBD5E1;
+}
+
+.nameinput input,
+.emailinput input{
+    height: 100%;
+    width: 100%;
+    padding: 0 .5rem;
+    border: none;
+    outline: none;
+}
+
+
+.nameinput input::placeholder,
+.emailinput input::placeholder{
+    color: #475569;
+}
+
+.message textarea{
+    min-height: 149px;
+    padding: .8rem;
+    outline: none;
+    font-family: "Manrope", sans-serif;
+    border-radius: 5px;
+    border: 1px solid #CBD5E1;
+}
+
+.submitBtn{
+    height: 45px;
+    width: 134px;
+    border: none;
+    outline: none;
+    display: flex;
+    border-radius: 100px;
+    margin: 1rem 0;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    cursor: pointer;
+    background-color: #5044E5;
+}
+
+.submitBtn span{
+    color: #fff;
+    font-size: 15px;
+}
