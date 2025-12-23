@@ -1,0 +1,46 @@
+.content{
+    max-width: 1300px;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.content h2{
+    color: #3B3B3B;
+    font-size: 36px;
+    font-weight: 550;
+}
+
+.content p{
+    font-size: 16px;
+    margin: 1rem 0;
+    color: #8A8E9B;
+}
+
+.work{
+    gap: 30px;
+    display: grid;
+    margin: 3rem 0;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.workBox{
+    text-align: left;
+}
+
+.workBox span{
+    color: #3B3B3B;
+    font-size: 16px;
+    margin: .5rem 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.workBox p{
+    font-size: 12px;
+    color: #828282;
+    margin: 0 !important;
+}
+
+.workBox img{
+    width: 100%;
+}
