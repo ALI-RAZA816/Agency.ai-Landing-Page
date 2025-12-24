@@ -5,8 +5,8 @@ import style from '../../Css/Header.module.css';
 export default function Header() {
   return (
     <div className={style.header}>
-      <div className="companyLogo">
-        <img src="/InsiderStats.png" alt="" />
+      <div className={style.companyLogo}>
+        <img src="/Group 1.png" alt="" /><img src="/InsiderStats.png" alt="" />
       </div>
       <div className={style.link}>
         <ul>
