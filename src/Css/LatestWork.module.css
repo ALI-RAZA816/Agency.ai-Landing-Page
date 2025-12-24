@@ -2,6 +2,7 @@
     max-width: 1300px;
     margin: 5rem auto;
     text-align: center;
+    padding: 0 .5rem;
 }
 
 .content h2{
@@ -43,4 +44,15 @@
 
 .workBox img{
     width: 100%;
+}
+
+@media  screen and (max-width:992px) {
+    .work{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media  screen and (max-width:520px) {
+    .work{
+        grid-template-columns:1fr;
+    }
 }

@@ -3,6 +3,7 @@
     margin: 0 auto;
     margin-bottom: 10rem !important;
     text-align: center;
+    padding: 0 .5rem;
 }
 
 .contactContent h2{
@@ -104,4 +105,11 @@
 .submitBtn span{
     color: #fff;
     font-size: 15px;
+}
+
+
+@media screen and (max-width:520px) {
+    .firstField{
+        flex-direction: column;
+    }
 }

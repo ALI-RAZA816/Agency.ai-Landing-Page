@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './App.css'
 import Companies from './Component/Companies/Companies';
 import Contact from './Component/Contact/Contact';
@@ -10,10 +11,18 @@ import Team from './Component/Team/Team';
 
 function App() {
 
+  const [linkShow, setLinkShow] = useState(false);
+
+  const barHandler = () => setLinkShow(true);
+  const crossHandler = () => setLinkShow(false);
 
   return (
     <>
-      <ContextValues.Provider>
+      <ContextValues.Provider value = {{
+        barHandler,
+        crossHandler,
+        linkShow
+      }}>
         <header>
           <Header />
         </header>

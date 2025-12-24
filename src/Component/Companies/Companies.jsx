@@ -2,7 +2,7 @@ import style from '../../Css/Companies.module.css';
 
 export default function Companies() {
     return (
-        <div className={style.companiesSec}>
+        <div id='Services' className={style.companiesSec}>
             <div className={style.content}>
                 <div>
                     <p>Trusted by Leading Companies</p>

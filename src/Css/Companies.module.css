@@ -16,6 +16,7 @@
     margin: 100px auto !important;
     max-width: 1300px;
     /* margin-bottom: 2rem; */
+    padding: 0 .5rem;
 }
 
 .content > div:first-child  p{
@@ -26,6 +27,10 @@
 }
 
 .companiesLogo{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
     margin:3rem 0 150px 0;
 }
 
@@ -33,7 +38,7 @@
     height: 40px;
     width: 100px;
     object-fit: contain;
-    margin-right: 80px;
+    /* margin-right: 80px; */
 }
 
 .companiesLogo img:last-child{
@@ -113,4 +118,10 @@
 .Helpcontent p{
     font-size: 14px;
     color: #828282;
+}
+
+@media screen and (max-width:764px){
+    .helpGrid{
+        grid-template-columns: 1fr;
+    }
 }

@@ -6,7 +6,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 export default function Contact() {
     return (
-        <div className={style.contactSection}>
+        <div id='Contact' className={style.contactSection}>
             <div className={style.contactContent}>
                 <h2>Reach out to us</h2>
                 <p>Ready to grow your brand? Let’s connect and build something  <br />exceptional together.</p>

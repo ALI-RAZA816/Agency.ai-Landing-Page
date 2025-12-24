@@ -2,7 +2,7 @@ import style from '../../Css/Team.module.css';
 
 export default function Team() {
     return (
-        <div className={style.teamSection}>
+        <div id='Testimonials' className={style.teamSection}>
             <div className={style.teamcontent}>
                 <h2>Meet the team</h2>
                 <p>A passionate team of digital experts dedicated to your <br />brand’s success.</p>

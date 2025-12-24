@@ -2,7 +2,7 @@ import style from '../../Css/LatestWork.module.css';
 
 export default function LatestWork() {
     return (
-        <div className={style.latestWork}>
+        <div id='Work' className={style.latestWork}>
             <div className={style.content}>
                 <h2>Out latest work</h2>
                 <p>Browse our portfolio of innovative digital projects that showcase <br /> creativity, performance, and results.</p>

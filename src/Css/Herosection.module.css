@@ -1,5 +1,6 @@
 .heroContainer{
     height: auto;
+    padding: 0 .5rem;
     width: 100%;
     background-position:center;
     background-size: cover;
@@ -72,4 +73,30 @@
 .heroImage img{
     width: 100%;
     object-fit: contain;
+}
+
+@media screen and (max-width:950px) {
+    .heroContent h1{
+        line-height: 80px;
+        font-size: 60px;
+    }
+
+    .h1BreakTag{
+        display: none;
+    }
+}
+@media screen and (max-width:600px) {
+    .heroContent h1{
+
+        text-align: left;
+    }
+}
+@media screen and (max-width:500px) {
+    .heroContent p{
+        text-align: left;
+    }
+
+    .PbreakTag{
+        display: none;
+    }
 }
