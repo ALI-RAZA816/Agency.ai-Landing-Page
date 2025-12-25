@@ -2,7 +2,7 @@ import style from '../../Css/HeroSection.module.css';
 
 export default function HeroSection() {
     return (
-        <div className={style.heroContainer}>
+        <div id='Home' className={style.heroContainer}>
             <div className={style.heroContent}>
                 <div>
                     <img src="/group_profile.png" alt="" />

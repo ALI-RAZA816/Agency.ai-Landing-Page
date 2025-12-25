@@ -11,19 +11,28 @@ import Team from './Component/Team/Team';
 
 function App() {
 
-  const [linkShow, setLinkShow] = useState(false);
 
+  // states
+  const [linkShow, setLinkShow] = useState(false);
+  
+
+  // state functions
   const barHandler = () => setLinkShow(true);
   const crossHandler = () => setLinkShow(false);
+
+  const linksHandler = () => {
+    setLinkShow(false);
+  }
 
   return (
     <>
       <ContextValues.Provider value = {{
         barHandler,
         crossHandler,
-        linkShow
+        linkShow,
+        linksHandler
       }}>
-        <header>
+        <header className={`header`}>
           <Header />
         </header>
         <main>
