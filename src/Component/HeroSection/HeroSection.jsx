@@ -1,4 +1,4 @@
-import style from '../../Css/HeroSection.module.css';
+import style from '../../Css/Herosection.module.css';
 
 export default function HeroSection() {
     return (
